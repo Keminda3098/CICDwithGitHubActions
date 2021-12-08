@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cdltd_ccl1049.Feature_04321</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Feature_04321</name>
+        <script><![CDATA[var Feature_04321 = Class.create();
+Feature_04321.prototype = {
+    initialize: function() {
+		gs.log("asdasd");
+    },
+    type: 'Feature_04321'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-08 01:22:42</sys_created_on>
+        <sys_id>1fb0b8e111d041107f442dd18bc4a92f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Feature_04321</sys_name>
+        <sys_package display_value="CCL1049" source="x_cdltd_ccl1049">175820ad119041107f442dd18bc4a92c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CCL1049">175820ad119041107f442dd18bc4a92c</sys_scope>
+        <sys_update_name>sys_script_include_1fb0b8e111d041107f442dd18bc4a92f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-08 01:34:02</sys_updated_on>
+    </sys_script_include>
+</record_update>
